@@ -4,6 +4,9 @@ add_executable(example
   glew.c
   example.cpp
   vec2.cpp
+  mat2.cpp
+  rectangle.cpp
+  circle.cpp
   )
 target_link_libraries(example
   glfw
@@ -17,6 +20,10 @@ add_executable(tests
   glew.c
   tests.cpp
   vec2.cpp
+  mat2.cpp
+  rectangle.cpp
+  circle.cpp
+  window.cpp
   )
 target_link_libraries(tests
   glfw

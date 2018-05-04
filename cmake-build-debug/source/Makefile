@@ -229,6 +229,7 @@ vec2.obj: vec2.cpp.obj
 
 # target to build an object file
 vec2.cpp.obj:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/vec2.cpp.obj
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/vec2.cpp.obj
 .PHONY : vec2.cpp.obj
 
@@ -238,6 +239,7 @@ vec2.i: vec2.cpp.i
 
 # target to preprocess a source file
 vec2.cpp.i:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/vec2.cpp.i
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/vec2.cpp.i
 .PHONY : vec2.cpp.i
 
@@ -247,6 +249,7 @@ vec2.s: vec2.cpp.s
 
 # target to generate assembly for a file
 vec2.cpp.s:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/vec2.cpp.s
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/vec2.cpp.s
 .PHONY : vec2.cpp.s
 

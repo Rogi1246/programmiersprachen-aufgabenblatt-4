@@ -8,6 +8,7 @@ source/CMakeFiles/tests.dir/glew.c.obj: ../source/glew.c
 
 source/CMakeFiles/tests.dir/tests.cpp.obj: ../external/catch-1.1/catch.hpp
 source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/tests.cpp
+source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/vec2.hpp
 
 source/CMakeFiles/tests.dir/vec2.cpp.obj: ../source/vec2.cpp
 source/CMakeFiles/tests.dir/vec2.cpp.obj: ../source/vec2.hpp

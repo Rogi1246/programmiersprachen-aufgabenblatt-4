@@ -11,6 +11,9 @@ source/CMakeFiles/example.dir/example.cpp.obj
  ../external/glfw-3.2.1/include/GLFW/glfw3.h
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/example.cpp
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.hpp
+source/CMakeFiles/example.dir/vec2.cpp.obj
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.cpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
 source/CMakeFiles/example.dir/window.cpp.obj
  ../external/GL/glew.h
  ../external/GL/glext.h

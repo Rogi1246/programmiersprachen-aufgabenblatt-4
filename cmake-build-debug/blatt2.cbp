@@ -345,9 +345,11 @@
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.cpp">
+			<Option target="example"/>
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp">
+			<Option target="example"/>
 			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.cpp">

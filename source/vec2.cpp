@@ -1,5 +1,6 @@
 #ifndef VEC2_CPP
 #define VEC2_CPP
+
 #include "vec2.hpp"
 #include <iostream>
 

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/example.dir/window.cpp.obj"
   "CMakeFiles/example.dir/glew.c.obj"
   "CMakeFiles/example.dir/example.cpp.obj"
+  "CMakeFiles/example.dir/vec2.cpp.obj"
   "example.pdb"
   "example.exe"
   "example.exe.manifest"

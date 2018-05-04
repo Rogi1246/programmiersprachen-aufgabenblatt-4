@@ -2,13 +2,46 @@
 #include <GLFW/glfw3.h>
 #include <utility>
 #include <cmath>
+#include "rectangle.hpp"
+#include "circle.hpp"
+#include <vector>
+
 
 
 int main(int argc, char* argv[])
 {
   Window win{std::make_pair(800,800)};
 
+  Rectangle rect{ {100.0f , 100.0f } , {400.0f, 400.0f} , {1.0f, 0.0f, 0.0f}};
+  Circle circ{ {350.0f , 350.0f}, 200.0f, {0.0f, 0.0f, 1.0f} };
+
+  std::vector<Circle> circles;
+  std::vector<Rectangle> rectangles;
+
+  circles.push_back(circ);
+  rectangles.push_back(rect);
+
+
   while (!win.should_close()) {
+
+      for(auto const& i : circles) {
+        if (i.is_inside({ (float) std::get<0>(win.mouse_position()), (float) std::get<1>(win.mouse_position())})) {
+          i.draw(win, { 0.0f,0.0f,1.0f });
+        }
+        else {
+          i.draw(win, { 1.0f,0.0f,0.0f });
+        }
+      }
+
+    for (auto const& i : rectangles) {
+      if (i.is_inside({ (float) std::get<0>(win.mouse_position()), (float) std::get<1>(win.mouse_position()) })) {
+        i.draw(win, { 0.0f,0.0f,1.0f });
+      }
+      else {
+        i.draw(win, { 1.0f,0.0f,0.0f });
+      }
+    }
+
     if (win.get_key(GLFW_KEY_ESCAPE) == GLFW_PRESS) {
       win.close();
     }
