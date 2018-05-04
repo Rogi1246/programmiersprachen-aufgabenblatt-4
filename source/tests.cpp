@@ -30,7 +30,6 @@ TEST_CASE("Test cases for Vec2") {
     REQUIRE(b.y == 2.0f);
   }
 
-  //TODO mehrere Tests für jeden Operator...
   SECTION("Operator += test") {
     a += b;
     b += c;

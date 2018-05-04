@@ -139,6 +139,36 @@ tests/fast:
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+circle.obj: circle.cpp.obj
+
+.PHONY : circle.obj
+
+# target to build an object file
+circle.cpp.obj:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/circle.cpp.obj
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/circle.cpp.obj
+.PHONY : circle.cpp.obj
+
+circle.i: circle.cpp.i
+
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/circle.cpp.i
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/circle.cpp.s
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
 example.obj: example.cpp.obj
 
 .PHONY : example.obj
@@ -195,6 +225,66 @@ glew.c.s:
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/glew.c.s
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/glew.c.s
 .PHONY : glew.c.s
+
+mat2.obj: mat2.cpp.obj
+
+.PHONY : mat2.obj
+
+# target to build an object file
+mat2.cpp.obj:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/mat2.cpp.obj
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/mat2.cpp.obj
+.PHONY : mat2.cpp.obj
+
+mat2.i: mat2.cpp.i
+
+.PHONY : mat2.i
+
+# target to preprocess a source file
+mat2.cpp.i:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/mat2.cpp.i
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/mat2.cpp.i
+.PHONY : mat2.cpp.i
+
+mat2.s: mat2.cpp.s
+
+.PHONY : mat2.s
+
+# target to generate assembly for a file
+mat2.cpp.s:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/mat2.cpp.s
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/mat2.cpp.s
+.PHONY : mat2.cpp.s
+
+rectangle.obj: rectangle.cpp.obj
+
+.PHONY : rectangle.obj
+
+# target to build an object file
+rectangle.cpp.obj:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/rectangle.cpp.obj
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/rectangle.cpp.obj
+.PHONY : rectangle.cpp.obj
+
+rectangle.i: rectangle.cpp.i
+
+.PHONY : rectangle.i
+
+# target to preprocess a source file
+rectangle.cpp.i:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/rectangle.cpp.i
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/rectangle.cpp.i
+.PHONY : rectangle.cpp.i
+
+rectangle.s: rectangle.cpp.s
+
+.PHONY : rectangle.s
+
+# target to generate assembly for a file
+rectangle.cpp.s:
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/rectangle.cpp.s
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/rectangle.cpp.s
+.PHONY : rectangle.cpp.s
 
 tests.obj: tests.cpp.obj
 
@@ -260,6 +350,7 @@ window.obj: window.cpp.obj
 # target to build an object file
 window.cpp.obj:
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/window.cpp.obj
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/window.cpp.obj
 .PHONY : window.cpp.obj
 
 window.i: window.cpp.i
@@ -269,6 +360,7 @@ window.i: window.cpp.i
 # target to preprocess a source file
 window.cpp.i:
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/window.cpp.i
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -278,6 +370,7 @@ window.s: window.cpp.s
 # target to generate assembly for a file
 window.cpp.s:
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/window.cpp.s
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1 && $(MAKE) -f source\CMakeFiles\tests.dir\build.make source/CMakeFiles/tests.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -290,12 +383,21 @@ help:
 	@echo ... tests
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... circle.obj
+	@echo ... circle.i
+	@echo ... circle.s
 	@echo ... example.obj
 	@echo ... example.i
 	@echo ... example.s
 	@echo ... glew.obj
 	@echo ... glew.i
 	@echo ... glew.s
+	@echo ... mat2.obj
+	@echo ... mat2.i
+	@echo ... mat2.s
+	@echo ... rectangle.obj
+	@echo ... rectangle.i
+	@echo ... rectangle.s
 	@echo ... tests.obj
 	@echo ... tests.i
 	@echo ... tests.s

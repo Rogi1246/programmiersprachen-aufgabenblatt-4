@@ -334,10 +334,34 @@
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.h">
 			<Option target="nanovg"/>
 		</Unit>
+		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/circle.cpp">
+			<Option target="example"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/circle.hpp">
+			<Option target="example"/>
+			<Option target="tests"/>
+		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/example.cpp">
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/glew.c">
+			<Option target="example"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/mat2.cpp">
+			<Option target="example"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/mat2.hpp">
+			<Option target="example"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp">
+			<Option target="example"/>
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp">
 			<Option target="example"/>
 			<Option target="tests"/>
 		</Unit>
@@ -354,9 +378,11 @@
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.cpp">
 			<Option target="example"/>
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.hpp">
 			<Option target="example"/>
+			<Option target="tests"/>
 		</Unit>
 		<Unit filename="C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

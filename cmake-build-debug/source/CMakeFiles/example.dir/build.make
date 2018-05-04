@@ -156,12 +156,90 @@ source/CMakeFiles/example.dir/vec2.cpp.obj.provides: source/CMakeFiles/example.d
 source/CMakeFiles/example.dir/vec2.cpp.obj.provides.build: source/CMakeFiles/example.dir/vec2.cpp.obj
 
 
+source/CMakeFiles/example.dir/mat2.cpp.obj: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/mat2.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
+source/CMakeFiles/example.dir/mat2.cpp.obj: ../source/mat2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/example.dir/mat2.cpp.obj"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\mat2.cpp.obj -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\mat2.cpp"
+
+source/CMakeFiles/example.dir/mat2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/mat2.cpp.i"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\mat2.cpp" > CMakeFiles\example.dir\mat2.cpp.i
+
+source/CMakeFiles/example.dir/mat2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/mat2.cpp.s"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\mat2.cpp" -o CMakeFiles\example.dir\mat2.cpp.s
+
+source/CMakeFiles/example.dir/mat2.cpp.obj.requires:
+
+.PHONY : source/CMakeFiles/example.dir/mat2.cpp.obj.requires
+
+source/CMakeFiles/example.dir/mat2.cpp.obj.provides: source/CMakeFiles/example.dir/mat2.cpp.obj.requires
+	$(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/mat2.cpp.obj.provides.build
+.PHONY : source/CMakeFiles/example.dir/mat2.cpp.obj.provides
+
+source/CMakeFiles/example.dir/mat2.cpp.obj.provides.build: source/CMakeFiles/example.dir/mat2.cpp.obj
+
+
+source/CMakeFiles/example.dir/rectangle.cpp.obj: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/rectangle.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
+source/CMakeFiles/example.dir/rectangle.cpp.obj: ../source/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.obj"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\rectangle.cpp.obj -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\rectangle.cpp"
+
+source/CMakeFiles/example.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/rectangle.cpp.i"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\rectangle.cpp" > CMakeFiles\example.dir\rectangle.cpp.i
+
+source/CMakeFiles/example.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/rectangle.cpp.s"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\rectangle.cpp" -o CMakeFiles\example.dir\rectangle.cpp.s
+
+source/CMakeFiles/example.dir/rectangle.cpp.obj.requires:
+
+.PHONY : source/CMakeFiles/example.dir/rectangle.cpp.obj.requires
+
+source/CMakeFiles/example.dir/rectangle.cpp.obj.provides: source/CMakeFiles/example.dir/rectangle.cpp.obj.requires
+	$(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/rectangle.cpp.obj.provides.build
+.PHONY : source/CMakeFiles/example.dir/rectangle.cpp.obj.provides
+
+source/CMakeFiles/example.dir/rectangle.cpp.obj.provides.build: source/CMakeFiles/example.dir/rectangle.cpp.obj
+
+
+source/CMakeFiles/example.dir/circle.cpp.obj: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/circle.cpp.obj: source/CMakeFiles/example.dir/includes_CXX.rsp
+source/CMakeFiles/example.dir/circle.cpp.obj: ../source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.obj"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\example.dir\circle.cpp.obj -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\circle.cpp"
+
+source/CMakeFiles/example.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/circle.cpp.i"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\circle.cpp" > CMakeFiles\example.dir\circle.cpp.i
+
+source/CMakeFiles/example.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/circle.cpp.s"
+	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\source\circle.cpp" -o CMakeFiles\example.dir\circle.cpp.s
+
+source/CMakeFiles/example.dir/circle.cpp.obj.requires:
+
+.PHONY : source/CMakeFiles/example.dir/circle.cpp.obj.requires
+
+source/CMakeFiles/example.dir/circle.cpp.obj.provides: source/CMakeFiles/example.dir/circle.cpp.obj.requires
+	$(MAKE) -f source\CMakeFiles\example.dir\build.make source/CMakeFiles/example.dir/circle.cpp.obj.provides.build
+.PHONY : source/CMakeFiles/example.dir/circle.cpp.obj.provides
+
+source/CMakeFiles/example.dir/circle.cpp.obj.provides.build: source/CMakeFiles/example.dir/circle.cpp.obj
+
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/window.cpp.obj" \
 "CMakeFiles/example.dir/glew.c.obj" \
 "CMakeFiles/example.dir/example.cpp.obj" \
-"CMakeFiles/example.dir/vec2.cpp.obj"
+"CMakeFiles/example.dir/vec2.cpp.obj" \
+"CMakeFiles/example.dir/mat2.cpp.obj" \
+"CMakeFiles/example.dir/rectangle.cpp.obj" \
+"CMakeFiles/example.dir/circle.cpp.obj"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
@@ -170,13 +248,16 @@ source/example.exe: source/CMakeFiles/example.dir/window.cpp.obj
 source/example.exe: source/CMakeFiles/example.dir/glew.c.obj
 source/example.exe: source/CMakeFiles/example.dir/example.cpp.obj
 source/example.exe: source/CMakeFiles/example.dir/vec2.cpp.obj
+source/example.exe: source/CMakeFiles/example.dir/mat2.cpp.obj
+source/example.exe: source/CMakeFiles/example.dir/rectangle.cpp.obj
+source/example.exe: source/CMakeFiles/example.dir/circle.cpp.obj
 source/example.exe: source/CMakeFiles/example.dir/build.make
 source/example.exe: external/glfw-3.2.1/src/libglfw3.a
 source/example.exe: libnanovg.a
 source/example.exe: source/CMakeFiles/example.dir/linklibs.rsp
 source/example.exe: source/CMakeFiles/example.dir/objects1.rsp
 source/example.exe: source/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable example.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable example.exe"
 	cd /d C:\Users\VANESS~1\PROGRA~3\CMAKE-~1\source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\example.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +269,9 @@ source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/window.cpp
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/glew.c.obj.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/example.cpp.obj.requires
 source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/vec2.cpp.obj.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/mat2.cpp.obj.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/rectangle.cpp.obj.requires
+source/CMakeFiles/example.dir/requires: source/CMakeFiles/example.dir/circle.cpp.obj.requires
 
 .PHONY : source/CMakeFiles/example.dir/requires
 

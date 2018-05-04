@@ -6,10 +6,39 @@ source/CMakeFiles/tests.dir/glew.c.obj: ../external/GL/glxew.h
 source/CMakeFiles/tests.dir/glew.c.obj: ../external/GL/wglew.h
 source/CMakeFiles/tests.dir/glew.c.obj: ../source/glew.c
 
+source/CMakeFiles/tests.dir/circle.cpp.obj: ../source/circle.cpp
+source/CMakeFiles/tests.dir/circle.cpp.obj: ../source/circle.hpp
+source/CMakeFiles/tests.dir/circle.cpp.obj: ../source/color.hpp
+source/CMakeFiles/tests.dir/circle.cpp.obj: ../source/vec2.hpp
+source/CMakeFiles/tests.dir/circle.cpp.obj: ../source/window.hpp
+
+source/CMakeFiles/tests.dir/mat2.cpp.obj: ../source/mat2.cpp
+source/CMakeFiles/tests.dir/mat2.cpp.obj: ../source/mat2.hpp
+source/CMakeFiles/tests.dir/mat2.cpp.obj: ../source/vec2.hpp
+
+source/CMakeFiles/tests.dir/rectangle.cpp.obj: ../source/color.hpp
+source/CMakeFiles/tests.dir/rectangle.cpp.obj: ../source/rectangle.cpp
+source/CMakeFiles/tests.dir/rectangle.cpp.obj: ../source/rectangle.hpp
+source/CMakeFiles/tests.dir/rectangle.cpp.obj: ../source/vec2.hpp
+source/CMakeFiles/tests.dir/rectangle.cpp.obj: ../source/window.hpp
+
 source/CMakeFiles/tests.dir/tests.cpp.obj: ../external/catch-1.1/catch.hpp
+source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/circle.hpp
+source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/color.hpp
+source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/mat2.hpp
+source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/rectangle.hpp
 source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/tests.cpp
 source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/vec2.hpp
+source/CMakeFiles/tests.dir/tests.cpp.obj: ../source/window.hpp
 
 source/CMakeFiles/tests.dir/vec2.cpp.obj: ../source/vec2.cpp
 source/CMakeFiles/tests.dir/vec2.cpp.obj: ../source/vec2.hpp
+
+source/CMakeFiles/tests.dir/window.cpp.obj: ../external/GL/glew.h
+source/CMakeFiles/tests.dir/window.cpp.obj: ../external/GL/glext.h
+source/CMakeFiles/tests.dir/window.cpp.obj: ../external/glfw-3.2.1/include/GLFW/glfw3.h
+source/CMakeFiles/tests.dir/window.cpp.obj: ../external/nanovg/src/nanovg.h
+source/CMakeFiles/tests.dir/window.cpp.obj: ../external/nanovg/src/nanovg_gl.h
+source/CMakeFiles/tests.dir/window.cpp.obj: ../source/window.cpp
+source/CMakeFiles/tests.dir/window.cpp.obj: ../source/window.hpp
 

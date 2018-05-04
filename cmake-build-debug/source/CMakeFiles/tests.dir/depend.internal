@@ -6,10 +6,39 @@ source/CMakeFiles/tests.dir/glew.c.obj
  ../external/GL/glxew.h
  ../external/GL/wglew.h
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/glew.c
+source/CMakeFiles/tests.dir/circle.cpp.obj
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/circle.cpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/circle.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/color.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.hpp
+source/CMakeFiles/tests.dir/mat2.cpp.obj
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/mat2.cpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+source/CMakeFiles/tests.dir/rectangle.cpp.obj
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/color.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.hpp
 source/CMakeFiles/tests.dir/tests.cpp.obj
  ../external/catch-1.1/catch.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/circle.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/color.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/mat2.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/tests.cpp
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.hpp
 source/CMakeFiles/tests.dir/vec2.cpp.obj
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.cpp
  C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/vec2.hpp
+source/CMakeFiles/tests.dir/window.cpp.obj
+ ../external/GL/glew.h
+ ../external/GL/glext.h
+ ../external/glfw-3.2.1/include/GLFW/glfw3.h
+ ../external/nanovg/src/nanovg.h
+ ../external/nanovg/src/nanovg_gl.h
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.cpp
+ C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/source/window.hpp
