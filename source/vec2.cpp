@@ -7,7 +7,7 @@ using namespace std ;
 
 Vec2::Vec2() :x(0.0), y(0.0) {};
 
-Vec2::Vec2(float x, float y) : x(x), y(y) {}
+Vec2::Vec2(float x, float y) : x(x), y(y) {};
 
 Vec2& Vec2::operator+=(Vec2 const &v) {
     x += v.x;

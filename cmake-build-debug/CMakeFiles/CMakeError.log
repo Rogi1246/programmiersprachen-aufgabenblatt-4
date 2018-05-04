@@ -1,0 +1,81 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b0ea8/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b0ea8.dir\build.make CMakeFiles/cmTC_b0ea8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0ea8.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_b0ea8.dir\CheckIncludeFile.c.obj   -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_b0ea8.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_b0ea8.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b0ea8.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_b0ea8/fast' failed
+mingw32-make.exe: *** [cmTC_b0ea8/fast] Error 2
+
+
+Determining if the include file dinput.h exists failed with the following output:
+Change Dir: C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_45740/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_45740.dir\build.make CMakeFiles/cmTC_45740.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45740.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_45740.dir\CheckIncludeFile.c.obj   -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+ #include <dinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_45740.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_45740.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_45740.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_45740/fast' failed
+mingw32-make.exe: *** [cmTC_45740/fast] Error 2
+
+
+Determining if the include file xinput.h exists failed with the following output:
+Change Dir: C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_321d2/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_321d2.dir\build.make CMakeFiles/cmTC_321d2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_321d2.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_321d2.dir\CheckIncludeFile.c.obj   -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+ #include <xinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_321d2.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_321d2.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_321d2.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_321d2/fast' failed
+mingw32-make.exe: *** [cmTC_321d2/fast] Error 2
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_ba8c8/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ba8c8.dir\build.make CMakeFiles/cmTC_ba8c8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba8c8.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_ba8c8.dir\src.c.obj   -c "C:\Users\Vanessa Retz\programmiersprachen-aufgabenblatt-2\cmake-build-debug\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_ba8c8.exe
+"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ba8c8.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ba8c8.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ba8c8.dir/objects.a @CMakeFiles\cmTC_ba8c8.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_ba8c8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ba8c8.exe -Wl,--out-implib,libcmTC_ba8c8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ba8c8.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_ba8c8.dir\build.make:98: recipe for target 'cmTC_ba8c8.exe' failed
+mingw32-make.exe[1]: *** [cmTC_ba8c8.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Vanessa Retz/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_ba8c8/fast' failed
+mingw32-make.exe: *** [cmTC_ba8c8/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

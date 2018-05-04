@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libnanovg.a  CMakeFiles/nanovg.dir/external/nanovg/src/nanovg.c.obj
+C:\MinGW\bin\ranlib.exe libnanovg.a
