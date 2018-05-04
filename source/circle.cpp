@@ -23,11 +23,21 @@ Vec2 Circle::center() const {
 float Circle::circumference() const {
     return 2 * (float)M_PI * radius_;
 }
-
-void Circle::draw(Window const &window) const {
+void Circle::draw(Window const& window) const {
     Vec2 startVec{};
     Vec2 endVec{};
-    for(int i = 0; i < 360; i++){
+    for (int i = 0; i < 360; i++) {
+        startVec = {(float)sin(((2 * M_PI )/360 ) * i) * radius_ , (float)cos(((2 * M_PI) / 360) * i) * radius_};
+        endVec = {(float)sin(((2 * M_PI) / 360) * (i + 1)) * radius_ , (float)cos(((2 * M_PI) / 360) * (i + 1)) * radius_};
+
+        window.draw_line((startVec + center_).x, (startVec + center_).y, (endVec + center_).x, (endVec + center_).y, color_.r_, color_.g_, color_.b_);
+    }
+}
+
+void Circle::draw(Window const& window, Color color) const {
+    Vec2 startVec{};
+    Vec2 endVec{};
+    for (int i = 0; i < 360; i++) {
         startVec = { (float)sin(((2 * M_PI) / 360) * i) * radius_ , (float)cos(((2 * M_PI) / 360) * i) * radius_ };
         endVec = { (float)sin(((2 * M_PI) / 360) * (i + 1)) * radius_ , (float)cos(((2 * M_PI) / 360) * (i + 1)) * radius_ };
 
@@ -35,7 +45,7 @@ void Circle::draw(Window const &window) const {
     }
 }
 
-bool Circle::is_inside(Vec2 const & v) const {
+bool Circle::is_inside(Vec2 const& v) const{
     Vec2 difference = v - center_;
     if (sqrt(pow(difference.x, 2) + pow(difference.y, 2)) <= radius_) {
         return true;
