@@ -31,7 +31,7 @@ Mat2 operator*(Mat2 const& m1, Mat2 const& m2) {
 
 Mat2 inverse(Mat2 const& m){
     float a = m.firstRow_.x * m.secondRow_.y - m.secondRow_.x * m.firstRow_.y;
-    return { {m.secondRow_.x , m.secondRow_.x } , {m.firstRow_.y , m.secondRow_.y} };
+    return { {m.secondRow_.y / a, - m.firstRow_.y /a} , {- m.secondRow_.x /a , m.firstRow_.x/a} };
 
 }
 

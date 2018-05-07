@@ -1,6 +1,9 @@
+#define _USE_MATH_DEFINES
+
 #include "window.hpp"
 #include <GLFW/glfw3.h>
 #include <utility>
+#include <math.h>
 #include <cmath>
 #include "rectangle.hpp"
 #include "circle.hpp"
@@ -80,8 +83,20 @@ int main(int argc, char* argv[])
     std::string text = "mouse position: (" + std::to_string(m.first) + ", " + std::to_string(m.second) + ")";
     win.draw_text(10, 5, 35.0f, text);
 
+  win.draw_line(400,400, cos((2 * M_PI / 360)*win.get_time() * 6 - M_PI_2) * 300 + 400, sin((2 *M_PI / 360)*win.get_time() * 6 - M_PI_2)*300 + 400, 0.0 , 1.0 ,0.0 );
+  win.draw_line(400,400, cos((2 * M_PI / 360)*win.get_time() * 6 / 60 - M_PI_2) * 250 + 400, sin((2 *M_PI / 360)*win.get_time() * 6 / 60- M_PI_2)*250 + 400, 0.0 , 1.0 ,0.0 );
+  win.draw_line(400,400, cos((2 * M_PI / 360)*win.get_time() * 30 / 3600 - M_PI_2) * 200 + 400, sin((2 *M_PI / 360)*win.get_time() * 30 / 3600 - M_PI_2)*200 + 400, 0.0 , 1.0 ,0.0 );
+
+
+
+
+
     win.update();
+
+
+
   }
+
 
   return 0;
 }
