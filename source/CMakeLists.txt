@@ -1,5 +1,11 @@
-add_executable( aufg2_3
-        aufgabe_2_und_3.cpp
+add_executable(aufg_2_3
+        aufgabe_2_und_3.cpp)
+add_executable(aufg_4
+        aufgabe_4.cpp
+        circle.cpp
+        vec2.cpp)
+add_executable(aufg_6,7,8
+        aufgabe_6,7,8.cpp
+        circle.cpp
+        vec2.cpp
         )
-
-
