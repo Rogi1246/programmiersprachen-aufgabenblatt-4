@@ -1,8 +1,10 @@
 #define CATCH_CONFIG_RUNNER
+
 #include<algorithm>
-#include<catch.hpp>
 #include<functional>
 #include<vector>
+
+#include"catch.hpp"
 
 bool is_even(int i){
     return i % 2 == 0;
