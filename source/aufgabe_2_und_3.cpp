@@ -1,16 +1,20 @@
 #include <algorithm>
 #include <set>
 #include <list>
+#include <set>
 #include <iostream>
 #include <random>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
 
 int main()
 {
-    list<unsigned int> randomList_;
-    set<unsigned int>  res_;
+    list<unsigned int>randomList_;
+    set<unsigned int> res_;
+    vector<unsigned int>random_vector(100);
 
 
     cout << "random list :  \n";
@@ -40,6 +44,9 @@ int main()
             cout << i << " : " << count(randomList_.begin(), randomList_.end(),i) << '\n' ;
         }
     }
+
+    copy(randomList_.begin(), randomList_.end(), random_vector.begin());
+
 
     return 0;
 }
