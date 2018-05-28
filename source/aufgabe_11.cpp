@@ -20,7 +20,7 @@ TEST_CASE ("filter multiples of 3", "[erase]")
     }
 
     v.erase(remove_if(v.begin(), v.end(), [](int const& i){
-        return (i%3)!=0 }), v.end());
+        return (i%3)!=0;}), v.end());
 
 REQUIRE (std :: all_of (v. begin (), v.end (), is_multiple_of_3 ));
 }
