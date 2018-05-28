@@ -16,6 +16,9 @@ using namespace std;
 
 Circle::Circle() : center_({ 0.0f , 0.0f}), radius_(0.0f), color_({0.0f}), name_{"unnamed"} {};
 
+Circle::Circle(float radius) :
+        radius_(radius), center_({0.0, 0.0}), color_({0.0f}), name_{"unnamed"} {};
+
 Circle::Circle(Vec2 const& center, float radius, Color const& color) :
     center_(center), radius_(radius), color_(color), name_{"unnamed"} {};
 

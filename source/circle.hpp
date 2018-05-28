@@ -17,6 +17,7 @@ private:
 
 public:
     Circle();
+    Circle(float radius);
     Circle(Vec2 const& center, float radius, Color const& color);
     Circle(Vec2 const& center, float radius, string name);
     Circle(Vec2 const& center, float radius, Color const& color ,string name);
