@@ -23,7 +23,7 @@ SeqContainer filter(SeqContainer const& container, Predicate const& predicate){
 TEST_CASE("functionTempl", "[task 13]"){
 
     std :: vector <int > v{1 ,2 ,3 ,4 ,5 ,6};
-    std :: vector <int > all_even = filter (v, is_even );
+    std :: vector <int > v2(10);
     v2 = filter(v, is_even);
 
     REQUIRE(std::all_of(v2.begin(),v2.end(),is_even));
