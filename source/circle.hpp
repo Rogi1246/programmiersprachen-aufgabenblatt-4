@@ -5,6 +5,10 @@
 #include "color.hpp"
 //#include "window.hpp"
 
+#include <vector>
+#include <string>
+#include <iostream>
+
 using namespace std;
 
 class Circle {
@@ -32,7 +36,7 @@ public:
     float radius() const ;
     bool is_inside(Vec2 const&) const ;
     string name() const;
-
+    ostream& print(ostream & out) const;
 };
 
 ostream& operator<<(ostream& out,Circle const& Circle);
@@ -69,12 +73,12 @@ struct circ_less{
 };
 
 template<typename T>
-class less
+class lesser
 {
 public:
-    bool operator()(Circle const& c1, Circle const& c2)
+    bool operator()(Circle const& circle1, Circle const& circle2)
     {
-        return c1<c2;
+        return circle1 < circle2;
     }
 };
 

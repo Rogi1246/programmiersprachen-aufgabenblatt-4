@@ -70,9 +70,8 @@ TEST_CASE("VecFunctor", "[task 8]"){
     sorted_circles3.push_back(circle14);
     sorted_circles3.push_back(circle15);
 
-    less<Circle> smaller;
-
-    sort(sorted_circles3.begin(), sorted_circles3.end(), smaller);
+    lesser<Circle> is_smaller;
+    sort(sorted_circles3.begin(), sorted_circles3.end(), is_smaller);
 
     REQUIRE(is_sorted(sorted_circles3.begin(), sorted_circles3.end()));
 

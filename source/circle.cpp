@@ -23,7 +23,7 @@ Circle::Circle(Vec2 const& center, float radius, Color const& color) :
     center_(center), radius_(radius), color_(color), name_{"unnamed"} {};
 
 Circle::Circle(Vec2 const& center, float radius, string name) :
-    center_(center), radius_(radius), name_{name}  {};
+    center_(center), radius_(radius), name_{name}, color_({0.0f})  {};
 
 Circle::Circle(Vec2 const& center, float radius, Color const& color ,string name) :
     center_(center), radius_(radius), color_(color), name_{name} {};
@@ -78,13 +78,13 @@ bool Circle::is_inside(Vec2 const& v) const {
 
 }
 
-ostream& Circle::print(std::ostream & out)const
+ostream& Circle::print(ostream & out)const
 {
-    out <<name()<<", "<<"(" << center().x << "," << center().y << ")" << ", " << radius()<<", "<<"("<<color().r_<<","<<color().g_<<","<<color().b_<<")\n";
+    out <<name()<<", "<<"(" << center().x << "," << center().y << ")" << ", " << radius()<<", "<<"("<< color_.r_ <<"," << color_.g_ <<","<< color_.b_ <<")\n";
     return out;
 }
 
-ostream& operator <<(std::ostream & out, Circle const& circle)
+ostream& operator <<(ostream & out, Circle const& circle)
 {
     return circle.print(out);
 }
