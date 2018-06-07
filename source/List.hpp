@@ -295,9 +295,11 @@ class List
         size_++;
     }
 
-    List<T> &operator=(List<T> const& aList) {
+    List<T> &operator=(List<T> const &aList)
+    {
         clear();
-        for(ListIterator<T> it = aList.begin(); it != aList.end(); it++){
+        for (ListIterator<T> it = aList.begin(); it != aList.end(); it++)
+        {
             push_back(*it);
         }
     }
@@ -308,26 +310,53 @@ class List
     ListNode<T> *tail_;
 };
 
-template<typename T>
-
-bool operator == (List<T> const& aList, List<T> const& bList){
-    if(aList.size() != bList.size()){
+template <typename T>
+bool operator==(List<T> const &aList, List<T> const &bList)
+{
+    if (aList.size() != bList.size())
+    {
         return false;
     }
 
     ListIterator<T> aListIt = aList.begin();
     ListIterator<T> bListIt = bList.begin();
-    while(aListIt != bListIt){
-        if(*aListIt != *bListIt){
+    while (aListIt != bListIt)
+    {
+        if (*aListIt != *bListIt)
+        {
             return false;
         }
 
-        aListIt ++;
-        bListIt ++;
+        aListIt++;
+        bListIt++;
     }
     return true;
 }
 
+template <typename T>
+bool operator!=(List<T> const &aList, List<T> const &bList)
+{
+    return !(aList == bList);
+}
 
+template <typename T>
+List<T> &reverse(List<T> const &aList)
+{
+    List<T> *res = new List<T>{aList};
+    res->reverse();
+    return *res;
+}
+
+template <typename T>
+List<T> operator+(List<T> const &firstList, List<T> secList)
+{
+    List<T> concat{firstList};
+    for (auto const &it : secList)
+    {
+        concat.push_back(it);
+    }
+
+    return concat;
+}
 
 #endif // # define BUW_LIST_HPP
