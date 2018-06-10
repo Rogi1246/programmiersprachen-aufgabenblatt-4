@@ -2,7 +2,6 @@
 #define BUW_LIST_HPP
 
 #include <cstddef>
-#include <initializer_list>
 
 using namespace std;
 
@@ -23,7 +22,7 @@ template <typename T>
 class ListIterator
 {
   public:
-    using Current = ListIterator<T>; //previous Self
+    using Current = ListIterator<T>; //previously : Self
     using value_type = T;
     using pointer = T *;
     using reference = T &;
@@ -110,6 +109,7 @@ class ListConstIterator
 {
 
   public:
+
   private:
     ListNode<T> *node;
 };
@@ -269,7 +269,7 @@ class List
     {
         while (!is_empty())
         {
-            pop_back;
+            pop_back();
         }
     }
 
