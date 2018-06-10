@@ -2,6 +2,7 @@
 #define BUW_LIST_HPP
 
 #include <cstddef>
+#include <initializer_list>
 
 using namespace std;
 
@@ -140,6 +141,12 @@ class List
         aList.size_ = 0;
     }
 
+    List(initializer_list<T> list){
+        for (auto it : list){
+            push_back(it);
+        }
+    };
+
     ~List()
     {
         clear();
@@ -175,21 +182,6 @@ class List
         }
 
         return tail_->value;
-    }
-
-    ListIterator<T> begin() const
-    {
-        return ListIterator<T>{head_};
-    }
-
-    ListIterator<T> end() const
-    {
-        return ListIterator<T>{tail_}.next();
-    }
-
-    ListIterator<T> tail() const
-    {
-        return ListIterator<T>{tail_};
     }
 
     void push_front(T const object)
@@ -303,6 +295,31 @@ class List
         }
 
         size_++;
+    }
+
+    void reverse(){
+        ListIterator<T> it = begin();
+        push_front(tail());
+        pop_back();
+        while(it != tail()){
+            insert(it, tail());
+            pop_back();
+        }
+    }
+
+    ListIterator<T> begin() const
+    {
+        return ListIterator<T>{head_};
+    }
+
+    ListIterator<T> end() const
+    {
+        return ListIterator<T>{tail_}.next();
+    }
+
+    ListIterator<T> tail() const
+    {
+        return ListIterator<T>{tail_};
     }
 
     List<T> &operator=(List<T> const &aList)

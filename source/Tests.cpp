@@ -16,7 +16,7 @@ TEST_CASE("constructors", "[List]")
     list1.push_front(0);
     list1.push_front(7);
 
-    REQUIRE(list1 == 14, 0, 7);
+    REQUIRE(list1.head() == 7);
 
     List<int> list2{list1};
     REQUIRE(list2 == list1);
@@ -38,7 +38,7 @@ TEST_CASE("modifiers", "[List]")
         REQUIRE(69 == list1.head());
 
         list1.pop_front();
-        REQUIRE(list2.is_empty());
+        REQUIRE(list1.is_empty());
     }
 
     SECTION("adding and removing w/ push/pop_back")
@@ -72,7 +72,10 @@ TEST_CASE("modifiers", "[List]")
 
 TEST_CASE("summingLists", "[List]")
 {
-    auto list1 = List<int>list2 + List<int> list3{11, 22, 33};
+    List<int> list2;
+    List<int> list3{11, 22, 33};
+    List<int> list1 = list2 + list3;
+
     list2.push_back(1);
     list2.push_back(4);
     list2.push_back(2);
@@ -102,7 +105,7 @@ TEST_CASE("copyList", "[List]")
     copy(list1.begin(), list1.end(), vec.begin());
 
     REQUIRE(3 == *vec.begin());
-    REQUIRE(9 == vec.tail());
+    REQUIRE(9 == *vec.end());
 }
 
 TEST_CASE("moving", "[List]")
