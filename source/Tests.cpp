@@ -72,7 +72,7 @@ TEST_CASE("modifiers", "[List]")
 
 TEST_CASE("summingLists", "[List]")
 {
-    auto list1 = List<int> list2 + List<int> list3{11, 22, 33};
+    auto list1 = List<int>list2 + List<int> list3{11, 22, 33};
     list2.push_back(1);
     list2.push_back(4);
     list2.push_back(2);
