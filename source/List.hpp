@@ -85,21 +85,6 @@ class ListIterator
         return *node;
     }
 
-    ListIterator<T> begin() const
-    {
-        return ListIterator<T>{head_};
-    }
-
-    ListIterator<T> end() const
-    {
-        return ListIterator<T>{tail_}.next();
-    }
-
-    ListIterator<T> tail() const
-    {
-        return ListIterator<T>{tail_};
-    }
-
   private:
     ListNode<T> *node;
 };
@@ -145,6 +130,16 @@ class List
         }
     };
 
+    List(List<T>&& aList):
+        head_(aList.head_),
+        tail_(aList.tail_),
+        size_(aList.size_)
+    {
+        aList.head_ = nullptr;
+        aList.tail_ = nullptr;
+        aList.size_ = 0;
+    }
+
     ~List()
     {
         clear();
@@ -180,6 +175,21 @@ class List
         }
 
         return tail_->value;
+    }
+
+    ListIterator<T> begin() const
+    {
+        return ListIterator<T>{head_};
+    }
+
+    ListIterator<T> end() const
+    {
+        return ListIterator<T>{tail_}.next();
+    }
+
+    ListIterator<T> tail() const
+    {
+        return ListIterator<T>{tail_};
     }
 
     void push_front(T const object)
