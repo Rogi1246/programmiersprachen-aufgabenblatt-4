@@ -105,12 +105,17 @@ List <int > list2 { list };
 REQUIRE( list == list2 );
 }
 
-TEST_CASE("moving", "[List]")
+TEST_CASE (" move constructor ", "[ constructor ]")
 {
-    List<int> list1{8, 10, 12, 14};
-    List<int> list2 = move(list1);
-    REQUIRE(list1.is_empty());
-    REQUIRE(list2.size() == 4);
+    List <int > list ;
+    list.push_front (1);
+    list.push_front (2);
+    list.push_front (3);
+    list.push_front (4);
+    List<int > list2 = std :: move ( list );
+    REQUIRE (0 == list . size ());
+    REQUIRE (list.is_empty ());
+    REQUIRE (4 == list2 . size ());
 }
 
 int main(int argc, char *argv[])
