@@ -94,18 +94,15 @@ TEST_CASE("assignment", "[List]")
     REQUIRE(list2.size() == 4);
 }
 
-TEST_CASE("copyList", "[List]")
+TEST_CASE (" copy constructor ", "[ constructor ]")
 {
-    List<int> list1;
-    list1.push_back(3);
-    list1.push_back(5);
-    list1.push_back(9);
-
-    vector<int> vec(3);
-    copy(list1.begin(), list1.end(), vec.begin());
-
-    REQUIRE(3 == *vec.begin());
-    REQUIRE(9 == *vec.end());
+List <int > list ;
+list.push_front (1);
+list.push_front (2);
+list.push_front (3);
+list.push_front (4);
+List <int > list2 { list };
+REQUIRE( list == list2 );
 }
 
 TEST_CASE("moving", "[List]")
