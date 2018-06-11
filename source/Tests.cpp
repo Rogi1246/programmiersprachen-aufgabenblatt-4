@@ -26,6 +26,13 @@ TEST_CASE("constructors", "[List]")
     REQUIRE(list3.size() == 0);
 }
 
+TEST_CASE("brace-enclosed initializerList", "[List]"){
+    List <int > int_list {9, 5, 38, 100};
+    REQUIRE(List <int >{9 , 5, 38, 100});
+    List <int >{1 , 2} + List <int >{5 , 6};
+    REQUIRE(List <int >{1 , 2, 5, 6});
+}
+
 TEST_CASE("modifiers", "[List]")
 {
 
@@ -112,7 +119,7 @@ TEST_CASE (" move constructor ", "[ constructor ]")
     list.push_front (2);
     list.push_front (3);
     list.push_front (4);
-    List<int > list2 = std :: move ( list );
+    List<int > list2 = move ( list );
     REQUIRE (0 == list . size ());
     REQUIRE (list.is_empty ());
     REQUIRE (4 == list2 . size ());
